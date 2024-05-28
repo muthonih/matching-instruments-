@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Instruments to Tribes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="outer-container">
+        <div class="container">
+            <h1>Match the Instruments to the Tribes</h1>
+            <div class="columns">
+                <div class="column" id="instruments">
+                    <div class="item" draggable="true" id="olwika">
+                        <img src="olwika.png" alt="Olwika">OLWIKA
+                    </div>
+                    <div class="item" draggable="true" id="abu">
+                        <img src="abu.png" alt="Abu">ABU
+                    </div>
+                    <div class="item" draggable="true" id="chivoti">
+                        <img src="chivoti.png" alt="Chivoti">CHIVOTI
+                    </div>
+                </div>
+                <div class="column" id="tribes">
+                    <div class="item" data-tribe="luo">
+                        Luo
+                    </div>
+                    <div class="item" data-tribe="mijikenda">
+                        Mijikenda
+                    </div>
+                    <div class="item" data-tribe="luhya">
+                        Luhya
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="checkButton" class="btn green">Check Answers</button>
+                <button id="resetButton" class="btn red">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
